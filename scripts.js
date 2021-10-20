@@ -59,11 +59,22 @@ window.onload = function() {
     this.classList.toggle("tp6");
   }
   
+  
+  
   document.querySelector("#footer").innerHTML += "<p>Serving Size 4 </p>";
+
+loadFileInto("ingredients.html", "#ingredients ul")
+loadFileInto("equipment.html", "#equipment ul")
+loadFileInto("directions.html", "#directions ul")
+
 } // end of window.onload
  
-document.getElementById("serving size").innerHTML = "Serving Size Approx 12" ;
+// document.getElementById("serving size").innerHTML = "Serving Size Approx 12" ;
 
-document.getElementById("calories").innerHTML = 1200 / 12
+// document.getElementById("calories").innerHTML = 1200 / 12
+
+
+
+
 
 
